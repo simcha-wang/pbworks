@@ -1,0 +1,20 @@
+* master   65534d9 [ahead 4] aa
+  products 65534d9 aa
+  search   f72b242 Styled search page
+C:\Users\swang3\Documents\GitHub\pbworks [master]> git branch --
+* master
+  products
+  search
+C:\Users\swang3\Documents\GitHub\pbworks [master]> git merge --n
+fatal: No commit specified and merge.defaultToUpstream not set.
+C:\Users\swang3\Documents\GitHub\pbworks [master]> git push -u o
+Counting objects: 11, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (9/9), 903 bytes | 0 bytes/s, done.
+Total 9 (delta 3), reused 0 (delta 0)
+To https://github.com/simcha-wang/pbworks.git
+   97bbaef..65534d9  master -> master
+Branch master set up to track remote branch master from origin.
+C:\Users\swang3\Documents\GitHub\pbworks [master]> git status
+# On branch master
